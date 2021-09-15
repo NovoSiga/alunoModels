@@ -4,6 +4,7 @@ class Aluno {
     private $id;
     private $nome;
     private $turma;
+    private $curso;
     
 
     public function getId (){
@@ -23,6 +24,12 @@ class Aluno {
     }
     public function setTurma ($i){
         $this->turma = $i;
+    }
+    public function getCurso (){
+        return $this->curso;
+    }
+    public function setCurso ($i){
+        $this->curso = $i;
     }
 }
 
